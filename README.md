@@ -13,8 +13,8 @@
 [Как добавить игрока в Unity](https://www.youtube.com/watch?v=SOROBCmN16Y)
 
 
-![Screenshot-0](Images/screenshot_00.jpeg)
+![Screenshot-0](Images/screenshot_00.png)
 
-![Screenshot-1](Images/screenshot_01.jpeg)
+![Screenshot-1](Images/screenshot_01.png)
 
-![Screenshot-2](Images/screenshot_02.jpeg)
+![Screenshot-2](Images/screenshot_02.png)
