@@ -30,7 +30,7 @@ public class EnemyUnit : MonoBehaviour
         Debug.Log("I go on");
     }
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("FinishWall")) //if (other.CompareTag("FinishWall"))
         {
