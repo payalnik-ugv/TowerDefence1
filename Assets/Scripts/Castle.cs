@@ -4,19 +4,13 @@ using UnityEngine;
 
 public class Castle : MonoBehaviour
 {
-    public float MaxHealth = 100f;
+    public float MaxHealth;
     public float CurrentHealth;
 
     // Start is called before the first frame update
     void Start()
     {
         CurrentHealth = MaxHealth;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void TakeDamage(float damage)
@@ -31,6 +25,6 @@ public class Castle : MonoBehaviour
     void CastleDeath()
     {
         // Handle castle destruction logic here
-        Debug.Log("Castle has been destroyed!");
+        Debug.Log("Castle has been destroyed");
     }
 }

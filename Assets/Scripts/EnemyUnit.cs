@@ -27,29 +27,17 @@ public class EnemyUnit : MonoBehaviour
         NavMeshAg.speed = Speed;
         NavMeshAg.SetDestination(Waypoint.position);
         MaxHealth = CurrentHealth;
-        Debug.Log("Я пошел");
+        Debug.Log("I go on");
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
-
-    private void OnCollisionEnter(Collision other)
-    {
-        Debug.Log("Коллизия");
-        if (other.gameObject.CompareTag("FinishWall"))
+        if (other.gameObject.CompareTag("FinishWall")) //if (other.CompareTag("FinishWall"))
         {
-            //Castle castle = collision.gameObject.GetComponent<Castle>();
-            //if (castle != null)
-            //{
-                //castle.TakeDamage(10f); // Deal 10 damage to the castle
-            Destroy(gameObject); // Destroy the enemy unit
+            Debug.Log("Получил урон");
             Map map = other.gameObject.GetComponentInParent<Map>();
             map.castle.TakeDamage(Damage); // Deal 10 damage to the castle
-            Debug.Log("Получил урон");
-            //}
+            Destroy(gameObject);           // Destroy the enemy unit
         }
     }
 
