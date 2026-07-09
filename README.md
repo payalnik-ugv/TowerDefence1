@@ -1,9 +1,13 @@
 # Создание своей игры на Unity в стиле Tower Defence
 
-[#1 - Создание карты и врагов](https://www.youtube.com/watch?v=UoEzU8rHYTM)
+- [#1 - Создание карты и врагов](https://www.youtube.com/watch?v=UoEzU8rHYTM)
+- [OnTriggerEnter в Unity C#](https://itproger.com/ua/spravka/unity/ontriggerenter)
+- [Что такое Trigger и Collision в Unity](https://www.youtube.com/watch?v=b9XcnmPZjB8)
 
 - [OnCollisionEnter](https://docs.unity3d.com/ru/530/ScriptReference/MonoBehaviour.OnCollisionEnter.html)
 - [OnTriggerEnter](https://docs.unity3d.com/ru/530/ScriptReference/MonoBehaviour.OnTriggerEnter.html)
+
+---
 
 + Dev Environment:
   - **Unity Engine**: [2022.3 (LTS)](https://docs.unity3d.com/2022.3/Documentation/Manual)
@@ -25,8 +29,7 @@
 + Используйте `OnTriggerEnter` - когда объект должен проходить сквозь другой без физического отскока
   - Для работы `OnTriggerEnter` хотя бы на одном из объектов должен быть включен параметр `Is Trigger` (работает только с теми объектами, которые имеют галочку `Is Trigger`)
   - Для срабатывания функций `OnTriggerEnter` как минимум один из объектов в сцене обязан иметь компонент `Rigidbody`
-  - [OnTriggerEnter в Unity C#](https://itproger.com/ua/spravka/unity/ontriggerenter)
-  - [Что такое Trigger и Collision в Unity](https://www.youtube.com/watch?v=b9XcnmPZjB8)
+
 ---
 Например: есть Игрок и предмет-инвертарь (монета, стена) И пускай будем использовать `OnTriggerEnter`
 - И для Игрока и для Инвертаря должен быть установлен компонент-Collider
