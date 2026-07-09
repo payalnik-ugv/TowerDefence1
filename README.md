@@ -1,8 +1,8 @@
 # Создание своей игры на Unity в стиле Tower Defence
 
+- [Что такое Trigger и Collision в Unity](https://www.youtube.com/watch?v=b9XcnmPZjB8)
 - [#1 - Создание карты и врагов](https://www.youtube.com/watch?v=UoEzU8rHYTM)
 - [OnTriggerEnter в Unity C#](https://itproger.com/ua/spravka/unity/ontriggerenter)
-- [Что такое Trigger и Collision в Unity](https://www.youtube.com/watch?v=b9XcnmPZjB8)
 
 - [OnCollisionEnter](https://docs.unity3d.com/ru/530/ScriptReference/MonoBehaviour.OnCollisionEnter.html)
 - [OnTriggerEnter](https://docs.unity3d.com/ru/530/ScriptReference/MonoBehaviour.OnTriggerEnter.html)
