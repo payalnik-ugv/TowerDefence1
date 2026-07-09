@@ -2,8 +2,8 @@
 
 [#1 - Создание карты и врагов](https://www.youtube.com/watch?v=UoEzU8rHYTM)
 
-- [MonoBehaviour.OnCollisionEnter(Collider)](https://docs.unity3d.com/ru/530/ScriptReference/MonoBehaviour.OnCollisionEnter.html)
-- [MonoBehaviour.OnTriggerEnter(Collider)](https://docs.unity3d.com/ru/530/ScriptReference/MonoBehaviour.OnTriggerEnter.html)
+- [OnCollisionEnter](https://docs.unity3d.com/ru/530/ScriptReference/MonoBehaviour.OnCollisionEnter.html)
+- [OnTriggerEnter](https://docs.unity3d.com/ru/530/ScriptReference/MonoBehaviour.OnTriggerEnter.html)
 
 + Dev Environment:
   - **Unity Engine**: [2022.3 (LTS)](https://docs.unity3d.com/2022.3/Documentation/Manual)
