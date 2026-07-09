@@ -2,6 +2,9 @@
 
 [#1 - Создание карты и врагов](https://www.youtube.com/watch?v=UoEzU8rHYTM)
 
+- [MonoBehaviour.OnCollisionEnter(Collider)](https://docs.unity3d.com/ru/530/ScriptReference/MonoBehaviour.OnCollisionEnter.html)
+- [MonoBehaviour.OnTriggerEnter(Collider)](https://docs.unity3d.com/ru/530/ScriptReference/MonoBehaviour.OnTriggerEnter.html)
+
 + Dev Environment:
   - **Unity Engine**: [2022.3 (LTS)](https://docs.unity3d.com/2022.3/Documentation/Manual)
   - **Microsoft Visual Studio**: 2022 (_Community_)
@@ -23,6 +26,7 @@
   - Для работы `OnTriggerEnter` хотя бы на одном из объектов должен быть включен параметр `Is Trigger` (работает только с теми объектами, которые имеют галочку `Is Trigger`)
   - Для срабатывания функций `OnTriggerEnter` как минимум один из объектов в сцене обязан иметь компонент `Rigidbody`
   - [OnTriggerEnter в Unity C#](https://itproger.com/ua/spravka/unity/ontriggerenter)
+  - [Что такое Trigger и Collision в Unity](https://www.youtube.com/watch?v=b9XcnmPZjB8)
 ---
 
 [#3 - Враг преследующий игрока](https://www.youtube.com/watch?v=jxp4cuB1rgk)

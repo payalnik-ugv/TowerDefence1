@@ -36,7 +36,7 @@ public class EnemyUnit : MonoBehaviour
         {
             Debug.Log("Получил урон");
             Map map = other.gameObject.GetComponentInParent<Map>();
-            map.castle.TakeDamage(Damage); // Deal 10 damage to the castle
+            map.castle.TakeDamage(Damage); // Deal 100 damage to the castle
             Destroy(gameObject);           // Destroy the enemy unit
         }
     }
