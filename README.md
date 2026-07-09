@@ -28,6 +28,13 @@
   - [OnTriggerEnter в Unity C#](https://itproger.com/ua/spravka/unity/ontriggerenter)
   - [Что такое Trigger и Collision в Unity](https://www.youtube.com/watch?v=b9XcnmPZjB8)
 ---
+Например: есть Игрок и предмет-инвертарь (монета, стена) И пускай будем использовать `OnTriggerEnter`
+- И для Игрока и для Инвертаря должен быть установлен компонент-Collider
+- Только для Инвертаря компонент-Collider должен стоять флажек `Is Trigger`
+- Только для Инвертаря нужно добавить и включить уникальный тег
+- Только для Игрока должен быть установлен компонент-Rigidbody
+- Только для Игрока нужно добавить и включить C#-скрипт где реализованна функция `OnTriggerEnter` (с проверкой колайдера на Инвертарь)
+---
 
 [#3 - Враг преследующий игрока](https://www.youtube.com/watch?v=jxp4cuB1rgk)
 
